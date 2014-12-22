@@ -10,3 +10,5 @@ Installation and usage:
 3) If there are pulses but the count is not valid an error code prefixed with 'E' will be printed, terminated by a newline '\n'.
 4) If valid data is read then the LED blinks and a measurement appears on the TX line.
 5) The measurement format starts with 'M' and contains 6 alphabetical hexadecimal digits; simply subtract 'A' to get the raw value. The measurement is also '\n' terminated.
+
+You may use this work in accordance with the GPL v3.
