@@ -1,0 +1,12 @@
+Read your DRO gauge over UART TX!
+
+Build:
+1) Build prequisites are an msp430 cross compiler (e.g. mspgcc) and the msp430 headers.
+2) Run make to build the DRO_Gauge.elf executable.
+
+Installation and usage:
+1) Use mspdebug to install.
+2) If no DRO gauge is connected there will be no output.
+3) If there are pulses but the count is not valid an error code prefixed with 'E' will be printed, terminated by a newline '\n'.
+4) If valid data is read then the LED blinks and a measurement appears on the TX line.
+5) The measurement format starts with 'M' and contains 6 alphabetical hexadecimal digits; simply subtract 'A' to get the raw value. The measurement is also '\n' terminated.
