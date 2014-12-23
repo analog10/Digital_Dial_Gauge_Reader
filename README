@@ -1,5 +1,7 @@
 Read your DRO gauge over UART TX!
 
+Project page: https://analog10.com/posts/external_power_for_the_pittsburgh_dial_gauge.html
+
 Build:
 1) Build prequisites are an msp430 cross compiler (e.g. mspgcc) and the msp430 headers.
 2) Run make to build the DRO_Gauge.elf executable.
