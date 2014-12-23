@@ -12,3 +12,4 @@ Installation and usage:
 5) The measurement format starts with 'M' and contains 6 alphabetical hexadecimal digits; simply subtract 'A' to get the raw value. The measurement is also '\n' terminated.
 
 You may use this work in accordance with the GPL v3.
+The schematic is posted under the Creative Commons Attribution-NonCommercial 3.0 License  https://creativecommons.org/licenses/by-nc/3.0/us/
