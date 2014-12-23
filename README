@@ -1,4 +1,4 @@
-Read your DRO gauge over UART TX!
+Read your DRO gauge over UART TX at 9600 Baud!
 
 Project page: https://analog10.com/posts/external_power_for_the_pittsburgh_dial_gauge.html
 
